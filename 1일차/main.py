@@ -73,6 +73,4 @@ def delete_user(user_id: int) -> dict[str, int]:
 
 if __name__ == "__main__":
     import uvicorn
-
-    # reload=True를 넣으면 코드 수정 시 서버가 자동으로 재시작됩니다.
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

@@ -28,6 +28,3 @@ class UserResponse(BaseModel):
     age: int | None = None
     gender: GenderEnum | None = None
 
-    # # UserModel 객체를 Pydantic 모델로 변환하기 위한 설정
-    # class Config:
-    #     from_attributes = True
